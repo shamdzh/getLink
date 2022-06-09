@@ -1,0 +1,89 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+
+  background: url(./assets/images/gradient.jpg) no-repeat center;
+  background-size: cover;
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.main__inner {
+margin-top: 120px;
+
+  .logo {
+
+    margin: 0 auto;
+    width: 60px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .logo__title {
+    text-align: center;
+    color: #333;
+    font-size: 1.6rem;
+    padding: 8px;
+    
+  }
+
+  .link_form {
+    background-color: #fff;
+    padding: 20px 25px;
+    width: 700px;
+
+    border-radius: 10px;
+
+    .line {
+      width: 100%;
+      margin: 0 auto;
+      border: 0.2px solid rgb(240, 240, 240);
+    }
+
+    label {
+      padding-top: 20px;
+    }
+
+  }
+
+  .shortLink {
+    .card-body {
+      padding: 24px !important;
+    }
+    
+    .card__title {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+}
